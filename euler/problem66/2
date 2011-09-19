@@ -1,0 +1,27 @@
+#include <iostream>
+
+int isPowerOfTwo(unsigned int x)
+{
+   return ((x != 0) && !(x & (x-1)));
+}
+
+int main()
+{
+   for(int D = 2; D <= 7; ++D)
+   {
+      if(isPowerOfTwo(D))
+         continue;
+
+      int x=2, y=0; 
+      do {
+         if(x == y) {
+            x++;
+            y = 0;
+         }
+         y++;
+      }while( (x*x - D*y*y) != 1);
+
+      std::cout << x << "^2 - " << D << "x" << y << "^2 = 1" << std::endl;
+   }
+   return 0;
+}
