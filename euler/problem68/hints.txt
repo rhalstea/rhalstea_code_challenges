@@ -1,0 +1,10 @@
+This is easy enough to do by hand. Just needed to notice the circle values should all be as small as possible, and summing all sets of two the totals should be a continuous set of numbers.
+
+i.e. 1, 2, 3
+
+(1+2) = 3
+(1+3) = 4
+(2+3) = 5
+
+
+from there placing last values is easy. 
