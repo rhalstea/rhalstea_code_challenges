@@ -2,7 +2,7 @@
 
 GCC = g++
 GCC_FLAGS = -w -Wall -Werror -pedantic -ansi
-EULER_PATH = /home/rhalstea/programs/euler_helper_functions/src
+EULER_PATH = ../lib
 
 
 # Do not modify below line
