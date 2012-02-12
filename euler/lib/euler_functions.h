@@ -73,46 +73,6 @@ class euler_functions
          ss << i;
          return isPandigital(ss.str());
       }
-/*
-      std::vector<std::pair<int, int> > getFactors(int val)
-      {
-         //std::vector<int> primes = 
-      }
-*/
 };
-/*
-class big_int
-{
-   public:
-      big_int()
-      {
-         this->value.push_back(0);
-      }
 
-      big_int(std::string s)
-      {
-         set_value(s);
-      }
-
-      big_int(int i)
-      {
-         std::stringstream ss;
-         ss << i;
-         set_value(s);
-      }
-   private:
-      std::vector<int> value;
-
-      void set_value(std::string s)
-      {
-         this->value.clear();
-         for(int i = 0; i < s.size(); ++i)
-         {
-            int tmp = (int)s[i] - 48;
-            if(tmp < 10 && tmp >= 0)
-               this->value.push_back(tmp);
-         }
-      }
-};
-*/
 #endif
